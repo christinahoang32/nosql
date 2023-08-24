@@ -1,6 +1,6 @@
 const { ObjectId } = require('mongoose').Types;
-const { User, Thought } = require('../models/Thought');
-const { create, User } = require('../models/User');
+const { User, Thought } = require('../models');
+const { create } = require('../models/User');
 
 
 const usercontroller = {
